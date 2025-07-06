@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function WhiteDiamond(){
     return(
-        <div className="w-[100vw] h-[100vh] relative overflow-hidden flex flex-row items-center justify-around">
+        <div className="w-[98vw] h-[100vh] relative overflow-hidden flex flex-row items-center justify-around">
             <div className="h-[100%] flex justify-center items-center">
                 <Image src={'/images/starboy/white_diamond_wall.png'} alt="" height={800} width={800} className="h-[60%]" />
             </div>
             <div className="text-center font-star relative">
-                <h3 className="font-bold text-[50px]">Perfeccionismo</h3>
-                <h4 className="font-bold text-[40px]">Diamante Branco</h4>
+                <h3 className="font-bold text-[50px]">White Diamond</h3>
+                <h4 className="font-bold text-[40px]">Imperio Perfeito</h4>
                 <div className="text-[20px] italic relative">
                     <Image
                         src={'/images/starboy/diamond.png'}
@@ -16,9 +16,7 @@ export default function WhiteDiamond(){
                         className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] z-10 opacity-10"
                     />
                     <p className="my-3">&quot;Eu sei que não preciso de você, afinal , eu sou todas as cores da luz&quot;</p>
-                    <p className="my-3">&quot;Mas você faz parte de mim, a parte que eu sempre preciso de mim&quot;</p>
-                    <p className="my-3">&quot;É uma pena que você desperte o pior nos outros... Agora eu, Eu deixo as coisas melhores&quot;</p>
-                    <p className="my-3">&quot;Eu não posso ter falhas, eu não deveria ter falhas, se eu não sou perfeita, então quem eu sou?&quot;</p>
+                    
                 </div>
             </div>
 
